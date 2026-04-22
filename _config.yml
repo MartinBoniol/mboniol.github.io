@@ -1,0 +1,27 @@
+theme: jekyll-theme-minimal
+title: Martin Boniol
+description: Ph.D. Student at ISAE-SUPAERO
+show_downloads: false
+
+include:
+  - _pages
+
+defaults:
+  # _posts
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: # true
+  #     share: true
+  #     related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      # layout: header_free
+      layout: default
