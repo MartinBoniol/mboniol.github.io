@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="uRdgtCpDsMDHIKLo1f5t4HfDb0GlN1LaLw_TGLGAUUc" />
+{% seo %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+     
+
+        {% if site.show_downloads %}
+        <ul class="downloads">
+          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+        </ul>
+        {% endif %}
+        <ul class="author__urls social-icons">
+        <li><a href="mailto:boniol.paul@gmail.com"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        <li><a href="https://www.linkedin.com/in/paul-boniol-5b0308b9/"><i class="fab fa-fw fa-linkedin fa-1x" aria-hidden="true"></i> Linkedin Profile</a></li>
+        <li><a href="https://scholar.google.com/citations?user=zbHpNGUAAAAJ&hl=en#"> <i class="ai ai-google-scholar-square ai-1x"></i> Google Scholar</a></li>
+        <li><a href="https://dblp.org/pid/266/6112.html"> <i class="ai ai-dblp ai-1x"></i> DBLP</a></li>
+        <li><a href="https://www.researchgate.net/profile/Paul-Boniol-2"> <i class="fab fa-researchgate ai-1x"></i> Researchgate</a></li>
+        <li><a href="https://github.com/boniolp"> <i class="fab fa-fw fa-github"></i> GitHub </a></li>
+        </ul>
+      </header>
+      
+      
+      <section>
+        <div class="navbar">
+        <div class="navbar-right">
+        <a href="https://mboniol.github.io/">Home</a>
+        <a href="https://mboniol.github.io/team">Team</a>
+        <a href="https://mboniol.github.io/about">About me</a>
+        <a href="https://mboniol.github.io/talks">Talks</a>
+        <a href="https://mboniol.github.io/publi">Publications</a>
+          <a href="https://mboniol.github.io/services">Service</a>
+        <a href="https://mboniol.github.io/teaching-summary">Teaching</a>
+        <!--<div class="dropdown">
+          <button class="dropbtn">Projects 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="https://boniolp.github.io/msad"> <i class="fas fa-check-square"></i> MSAD </a>
+            <a href="https://boniolp.github.io/norma"> <i class="fas fa-chart-line"></i> NormA </a>
+            <a href="https://boniolp.github.io/sand"> <i class="fas fa-stream"></i> SAND </a>
+            <a href="https://boniolp.github.io/s2g"> <i class="fas fa-project-diagram"></i> Series2Graph </a>
+            <a href="https://boniolp.github.io/smartlaw"> <i class="fas fa-balance-scale"></i> Smartlaw</a>
+            <a href="https://boniolp.github.io/dcam"> <i class="fas fa-search"></i> dCAM</a>
+          </div> 
+        </div>-->
+        <a href="https://mboniol.github.io/thesis">Thesis</a>
+        </div>
+      </div>
+
+      {{ content }}
+
+      </section>
+      <footer>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
