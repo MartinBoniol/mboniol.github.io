@@ -8,8 +8,3 @@ My research interest lies in the intersections between:
 -  Formal Method usage and verification. 
 -  Binary Decision Diagram.
 -  Machine learning for embeded system.
-
-
-TEST123
-
-TEST456
