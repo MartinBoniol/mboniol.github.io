@@ -20,7 +20,6 @@ redirect_from:
 #### Conferences
 
 * Martin Boniol, Julien Brunel, Jean-Baptiste Chaudron, Christophe Garion, Xavier Thirioux. **Compressing ACAS-Xu Lookup Tables with Binary Decision Diagrams.** NASA Formal Methods (NFM) 2026, May 2026, Los Angeles (CA), United States. (Published soon : preprint version available)
----
 
 #### Preprints
 
